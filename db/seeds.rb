@@ -8,9 +8,9 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 Post.create([
-  { title: 'First Post', body: 'This is the content of the First post' },
-  { title: 'Second Post', body: 'This is the content of the Second post' },
-  { title: 'Third Post', body: 'This is the content of the Third post' },
-  { title: 'Fourth Post', body: 'This is the content of the Fourth post' },
-  { title: 'Fifth Post', body: 'This is the content of the Fifth post' },
+  { title: 'First Post', body: 'This is the content of the First post', user_id: 1 },
+  { title: 'Second Post', body: 'This is the content of the Second post', user_id: 1 },
+  { title: 'Third Post', body: 'This is the content of the Third post', user_id: 1 },
+  { title: 'Fourth Post', body: 'This is the content of the Fourth post', user_id: 1 },
+  { title: 'Fifth Post', body: 'This is the content of the Fifth post', user_id: 1 },
 ])
