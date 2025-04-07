@@ -21,7 +21,11 @@ class PostsController < ApplicationController
 
   # my posts
   def myposts
-    @posts = Post.where(user_id: current_user.id)
+    if current_user 
+      @posts = Post.where(user_id: current_user.id)
+    else 
+      redirect_to root_path
+    end 
   end
 
   # POST /posts or /posts.json
