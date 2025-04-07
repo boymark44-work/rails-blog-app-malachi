@@ -22,8 +22,7 @@
   </div>
 
   <!-- UserID Number Field -->
-  <%= form.number_field :user_id, value: current_user.id %>
-
+  <%= form.number_field :user_id, value: current_user.id, style: "display: none;" %>
 
   <div>
     <%= form.submit %>
