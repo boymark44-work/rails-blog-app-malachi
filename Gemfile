@@ -49,8 +49,12 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ]
 end
 
-# Custom Gems
+
+# Custom Gems: 
 gem 'devise', '~> 4.9', '>= 4.9.4'
+gem 'friendly_id', '~> 5.5.0' # For pretty-url.
+
+
 
 
 group :development do
