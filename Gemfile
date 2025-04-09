@@ -17,6 +17,7 @@ gem "bootsnap", require: false
 gem "devise", "~> 4.9", ">= 4.9.4"
 gem "friendly_id", "~> 5.5.0"
 gem "ransack"
+gem "ostruct"
 
 group :development, :test do
   gem "debug", platforms: %i[mri]
