@@ -17,5 +17,4 @@ test:
 
 production:
   <<: *default
-  url: <%= ENV["postgresql://rails_blog_app_malachi_db_user:OHZPtBsBUXSDxBoxfn8T6VOunRpBvZvq@dpg-cvr2upngi27c738jql5g-a.singapore-postgres.render.com/rails_blog_app_malachi_db"] =>
-  
+  url: <%= ENV["DATABASE_URL"] =>
